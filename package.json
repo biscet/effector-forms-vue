@@ -1,6 +1,6 @@
 {
   "name": "effector-forms-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Effector Form by 42-px for Vue",
   "main": "./dist/effector-forms-vue.cjs.js",
   "jsnext:main": "./dist/index.mjs",
