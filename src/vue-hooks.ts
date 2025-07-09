@@ -4,7 +4,7 @@ import { useUnit, useVModel } from "effector-vue/composition";
 
 export function useForm<
   F extends AnyFormValues,
-  const S extends readonly StringKey<F>[] | undefined = undefined
+  S extends readonly StringKey<F>[] | undefined = undefined
 >(form: Form<F>, signals?: S) {
   type FieldKeys = S extends readonly any[] ? S[number] : StringKey<F>;
 
